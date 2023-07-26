@@ -1,0 +1,22 @@
+body {
+  margin: 0; /* Eliminar margen del body para eliminar espacios alrededor del navbar */
+  padding: 0; /* Eliminar padding del body para eliminar espacios alrededor del navbar */
+}
+
+#navegador
+/* Estilos personalizados */
+.navbar {
+  background-color: #da8e58; /* Establecer el color de fondo a naranja */
+}
+
+.navbar a.nav-link {
+  color: white; /* Establecer el color del texto de los enlaces a blanco */
+}
+
+  
+ #formulario .form-container {
+    border: 2px solid #04776f;
+    padding: 20px;
+  }
+
+  
