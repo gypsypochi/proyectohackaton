@@ -13,6 +13,28 @@ body {
   color: white; /* Establecer el color del texto de los enlaces a blanco */
 }
 
+
+  #contenedor .row {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+  }
+
+  /* Ajustar el tamaño del video para que ocupe toda la altura del contenedor */
+  #contenedor video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Estilo para el contenedor de texto */
+  #contenedor .col-12.col-md-6 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+
   
  #formulario .form-container {
     border: 2px solid #04776f;
