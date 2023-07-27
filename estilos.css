@@ -14,6 +14,7 @@ body {
 }
 
 
+   
   #contenedor .row {
     display: flex;
     align-items: stretch;
@@ -32,6 +33,11 @@ body {
     display: flex;
     align-items: center;
     padding: 20px;
+  }
+
+  /* Color de fondo para el contenedor de texto */
+  #contenedor .custom-bg {
+    background-color: #04776F; /* Puedes cambiar este valor al color que desees */
   }
 
 
