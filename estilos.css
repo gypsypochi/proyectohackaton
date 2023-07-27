@@ -14,12 +14,6 @@ body {
 }
 
 
-#Mapanavegador
-/* Ajustar el tamaño de la imagen */
-    .img-fluid {
-      max-width: 600px; /* Puedes ajustar el valor a tu preferencia */
-    }
-
    
   #contenedor .row {
     display: flex;
