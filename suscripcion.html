@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Gamer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Raleway:wght@300&family=Sansita&display=swap" rel="stylesheet">
+
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./img">
+    
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="bg-dark" id="navegador">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-orange px-5" style="height: 80px; width: 100vw;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-center" href="./index.html" id="iconozona">
+        <img src="./img/Logo ecobici.png" alt="150" width="150" 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="./suscripcion.html">Suscribite</a>
+          <a class="nav-link" href="./Nuestras Bicis.html">Registrarse</a>
+          <a class="nav-link" href="./estaciones.html">Estaciones</a>
+          <a class="nav-link" href="./nosotras.html">Quienes Somos</a
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<div class="mb-5"></div>
+
+
+
+
+
+<!-- Tarjetas -->
+<div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="mx-auto">
+          <div class="mx-5">
+            <div class="row">
+              <div class="col-4">
+                <div class="card border border-warning rounded-0">
+                  <div class="card-body p-3">
+                    <h5 class="card-title">Suscripcion 1</h5>
+                    <ul class="list-unstyled">
+                      <li><span class="h5">&#9733;</span> Posibilidad de un acompañante no registrado</li>
+                      <li><span class="h5">&#9733;</span> Tiempo de uso ilimitado</li>
+                      <li><span class="h5">&#9733;</span> Recorridos Ilimitados</li>
+                    </ul>
+                    <small class="text-muted text-sm">5% adicional a la Suscripcion Basica</small>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card border border-warning rounded-0">
+                  <div class="card-body p-3">
+                    <h5 class="card-title">Suscripcion 2</h5>
+                    <ul class="list-unstyled">
+                      <li class="text-decoration-line-through"><span class="h5">&#9733;</span> Posibilidad de un acompañante no registrado</li>
+                      <li><span class="h5">&#9733;</span> Tiempo de uso ilimitado</li>
+                      <li><span class="h5">&#9733;</span> Recorridos Ilimitados</li>
+                    </ul>
+                    <small class="text-muted text-sm">40% adicional a la Suscripcion Basica</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card border border-warning rounded-0">
+                  <div class="card-body p-3">
+                    <h5 class="card-title">Suscripcion 3</h5>
+                    <ul class="list-unstyled">
+                      <li class="text-decoration-line-through"><span class="h5">&#9733;</span>Posibilidad de un acompañante no registrado</li>
+                      <li class="text-decoration-line-through"><span class="h5">&#9733;</span> Tiempo de uso ilimitado</li>
+                      <li><span class="h5">&#9733;</span> Recorridos Ilimitados</li>
+                    </ul>
+                    <small class="text-muted text-sm">80% adicional a la Suscripcion Basica</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Texto -->
+  <div class="mt-4 mb-4 text-center">
+    <h1>Valor total de la Suscripcion Basica $2000</h1>
+    <p class="text-muted small">(Con la suscripcion basica, podes utilizar nuestras bicis con un tiempo limitido de 1 hora, y un recorrido no mayor a 30km)</p>
+  </div>
+  
+  
+
+<!-- Formulario -->
+<div class="container" id="formulario">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <div class="form-container border border-warning rounded p-4">
+        <h2 class="text-center">Formulario de Membresía</h2>
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese su email" required>
+          </div>
+          <div class="form-group">
+            <label for="membresia">Tipo de membresía:</label>
+            <select class="form-control" id="membresia" name="membresia" onchange="calcularTotal()" required>
+              <option value="" selected disabled>Seleccione una opción</option>
+              <option value="Classic">Basica</option>
+              <option value="Gold">Suscripcion 1</option>
+              <option value="Platinum">Suscripcion 2</option>
+              <option value="Black">Suscripcion 3</option>
+            </select>
+          </div>
+          
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="acepta_condiciones" name="acepta_condiciones" required>
+            <label class="form-check-label" for="acepta_condiciones">Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de privacidad</a></label>
+          </div>
+          
+          <div class="form-group">
+            <label for="totalPagar">Total a pagar:</label>
+            <div class="input-group">
+              <span class="input-group-text">$</span>
+              <input type="text" class="form-control" id="totalPagar" name="totalPagar" readonly style="background-color: #eec6d0;">
+            </div>
+          </div>
+          <div class="mb-2"></div>
+          <div class="text-center">
+            <button type="reset" class="btn btn-danger">Borrar</button>
+            <button type="button" class="btn btn-danger" id="confirmarcompra">Confirmar Compra</button>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mb-5"></div>
+
+ <!-- Footer -->
+ <footer class="bg-dark text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light mb-4">Preguntas Frecuentes</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-secondary">¿Cómo crear una cuenta?</a></li>
+            <li><a href="#" class="text-secondary">¿como registrate?</a></li>
+            <li><a href="#" class="text-secondary">¿Cómo recuperar mi contraseña?</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light mb-4">Contáctanos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-secondary">Correo Electrónico</a></li>
+            <li><a href="#" class="text-secondary">Whatsapp</a></li>
+            <li><a href="#" class="text-secondary">Canal de Discord</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light mb-4">Comunidad</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-secondary">Únete a nuestra comunidad</a></li>
+            <li><a href="#" class="text-secondary">Sube tus recorridos</a></li>
+            <li><a href="#" class="text-secondary">Comparte con otros</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <!-- JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+  <!-- Js personalizado -->
+  <script src="./javascript.js"></script>
+  
+  </body>
+  </html>
+
